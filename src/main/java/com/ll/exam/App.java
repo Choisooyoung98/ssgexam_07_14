@@ -4,20 +4,21 @@ import java.util.Scanner;
 
 public class App {
     Scanner sc;
-    String cmd;
     App() {
         sc = new Scanner(System.in);
     }
-    void run() {
+    public void run() {
         System.out.println("=== 명언 SSG ===");
+
+        outer:
         while(true){
-            cmd = sc.nextLine().trim();
-            outer:
+            System.out.print("명령) ");
+            String cmd = sc.nextLine().trim();
+
             switch (cmd){
                 case "종료":
                     break outer;
             }
         }
-
     }
 }
