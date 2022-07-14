@@ -18,6 +18,11 @@ public class App {
             switch (cmd){
                 case "종료":
                     break outer;
+                case "등록":
+                    System.out.print("명언 : ");
+                    String content = sc.nextLine().trim();
+                    System.out.print("작가 : ");
+                    String author = sc.nextLine().trim();
             }
         }
     }
