@@ -48,6 +48,8 @@ public class App {
                         System.out.println(wiseSaying_.id + " / " + wiseSaying_.content + " / " + wiseSaying_.author);
                     }
                     continue;
+                case "삭제":
+
 
             }
         }
